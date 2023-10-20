@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Pacifico&family=Racing+Sans+One&family=Young+Serif&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: teal;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-p-vWd-7bCazIbg4yJ2JBQ62rXINjjdzbfjI0Dex4OAN3XpwFxeZHNmeL3yeTUZKepG8&usqp=CAU");
+        }
+        .login-container {
+            position: relative;
+            width: 400px;
+            height: 250px;
+            background-color: #b4a4b2;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        .login-form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-form input[type="text"], .login-form input[type="password"] {
+            width: 150%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 15px;
+            background-color: #2e2e2e;
+            color: #fff;
+        }
+        .login-form button {
+            width: 120%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3e3e3e;
+            color: #fff;
+            cursor: pointer;
+        }
+        h1{
+            font-family: 'Young Serif', serif;
+            font-size: 80px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <center>
+                <h1>Welcome to EduWeb</h1>
+            </center>
+        </div>
+<center>
+    <div class="login-container">
+        <canvas id="animation"></canvas>
+        <form class="login-form">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <a href="index.html">
+            <button type="submit">Login</button></a>
+            <br><br>
+            <a href="index.html"> Home Page</a>
+        </form>
+    </div>
+</div>
+</center>
+    </body>
+</html>
